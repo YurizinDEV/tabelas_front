@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: #333;
+    padding: 1.5rem;
+}
+
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela thead th {
+    background: #000;
+    color: #fff;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+}
+
+.tabela tbody td {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+}
+
+.tabela tbody tr:nth-child(even) td {
+    background: #f1f1f1;
+}
+
+.tabela tbody tr:hover td {
+    background: #e7e7e7;
+}
